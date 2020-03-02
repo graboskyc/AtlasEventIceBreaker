@@ -1,0 +1,4 @@
+pymongo
+dnspython
+boto3
+bson

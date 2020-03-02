@@ -1,7 +1,7 @@
 {
-    "id": "5e5d61068bd0a5d36f3a5c32",
-    "database": "welcome",
-    "collection": "responses",
+    "id": "5e5d62a28bd0a5d36f3ba943",
+    "database": "lambda",
+    "collection": "lambda",
     "roles": [
         {
             "name": "owner",

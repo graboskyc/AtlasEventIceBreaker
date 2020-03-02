@@ -5,7 +5,6 @@ from bson.json_util import loads
 
 def main(event, context):
     csURI = event['csURI']
-    dsURI = event['dsURI']
     db = event['db']
     col = event['col']
     bucket = event['bucket']

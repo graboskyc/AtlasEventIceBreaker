@@ -47,6 +47,7 @@
                     obj.name = $('#txt_name').val() ;
                     obj.cs = $('#txt_cs').val() ;
                     obj.bucket = "gskyclassshare";
+                    obj.dsURI = "gskyclassshare";
                     obj.db = "class";
                     obj.col = "import";
                     obj.fn = "01.json";
@@ -56,6 +57,8 @@
                     obj.browser.lang = navigator.language || undefined;
                     obj.browser.plat = navigator.platform || undefined;
                     obj.owner = client.auth.authInfo.userId;
+
+                    console.log(obj);
 
                     db.collection("connstrings")
                         .insertOne(obj)

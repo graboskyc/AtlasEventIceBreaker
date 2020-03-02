@@ -1,0 +1,18 @@
+{
+    "id": "5e5d62f6fc52d4a3c5fcd50a",
+    "name": "newConnStrTrigger",
+    "type": "DATABASE",
+    "config": {
+        "operation_types": [
+            "INSERT"
+        ],
+        "database": "welcome",
+        "collection": "connstrings",
+        "service_name": "mongodb-atlas",
+        "match": {},
+        "full_document": true,
+        "unordered": true
+    },
+    "function_name": "newConnStr",
+    "disabled": false
+}

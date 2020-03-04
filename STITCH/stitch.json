@@ -1,13 +1,13 @@
 {
-    "app_id": "poll-lwxzx",
+    "app_id": "class-welcome-ireuc",
     "config_version": 20180301,
-    "name": "poll",
+    "name": "class-welcome",
     "location": "US-VA",
     "deployment_model": "LOCAL",
     "security": {},
     "hosting": {
         "enabled": true,
-        "app_default_domain": "poll-lwxzx.mongodbstitch.com"
+        "app_default_domain": "class-welcome-ireuc.mongodbstitch.com"
     },
     "custom_user_data_config": {
         "enabled": false

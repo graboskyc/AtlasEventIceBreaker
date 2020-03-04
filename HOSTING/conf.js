@@ -1,4 +1,4 @@
-GLOBALSTITCHAPP = "poll-lwxzx";
+GLOBALSTITCHAPP = "class-welcome-ireuc";
 GLOBALDBNAME = "welcome";
 const client = stitch.Stitch.initializeDefaultAppClient(GLOBALSTITCHAPP);
 const mongodb = client.getServiceClient(stitch.RemoteMongoClient.factory,"mongodb-atlas");

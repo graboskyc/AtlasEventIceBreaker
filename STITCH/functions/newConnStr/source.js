@@ -1,8 +1,8 @@
-exports = async function(changeEvent) {
+exports = function(changeEvent) {
   const fullDocument = changeEvent.fullDocument;
   const lambda = context.services.get('aws').lambda("us-east-1");
 
-  const result = await lambda.Invoke({
+  const result = lambda.Invoke({
     FunctionName: "importMongoDS",
     Payload: JSON.stringify({
       "csURI": fullDocument.cs,
@@ -13,6 +13,4 @@ exports = async function(changeEvent) {
       "fn": fullDocument.fn
     })
   });
-
-  console.log(result.Payload.text());
 };
